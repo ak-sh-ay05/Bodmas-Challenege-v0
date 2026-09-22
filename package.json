@@ -1,0 +1,18 @@
+{
+  "name": "bodmas-challenge",
+  "version": "1.0.0",
+  "description": "BODMAS Challenge game with an admin dashboard and Excel export of student scores",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-basic-auth": "^1.2.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
